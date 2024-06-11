@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ecdada;
+}
+
+header {
+    width: 100%;
+    background-color: #bf6ed7; /* You can choose any color you like */
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    color: rgb(0, 0, 0);
+    font-size: 5em;
+    margin: 0;
+    font: italic;
+}
+
+.content-box {
+    width: 50%;
+    max-width: 600px;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 6px rgba(65, 22, 63, 0.943);
+    text-align: center;
+    background-image: url('pexels-ithalu-907485.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(5, 3, 3); /* Ensures text is readable */
+}
+
+
+.input-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+.input-container input {
+    width: 40%;
+    padding: 10px 40px 10px 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.content-box button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+    background-color: #e1768f;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.content-box p {
+    background: rgba(220, 115, 180, 0.5); /* Adds a slight background to the text for better readability */
+    padding: 10px;
+    border-radius: 14px;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+    font-size: large;
+    border: #140a0e;
+}
+
+.content-box button:hover {
+    background-color: #e46294;
+}
+
+#weather-info {
+    
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.weather-icon {
+    width: 100px;
+    height: 100px;
+}
